@@ -1,0 +1,52 @@
+
+
+.post_form{
+    width: 60%;
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  
+  
+  .post_form input, .post_form textarea, post_form button{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .post_form .file{
+    border: 1px solid gray;
+  }
+  
+  .post_form button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+  }
+  
+  
+  .post_container{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .error-text{
+    background-color: red;
+  }
+
+  .titlee{
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .post_form{
+      width: 90%;
+      margin: 5px;
+    }
+
+
+    
+  }

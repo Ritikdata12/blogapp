@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .input111{
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 10px 20px;
+  }
+  .button{
+    margin-left: 2%;
+    padding: 10px 15px;
+  }
+  .images{
+    height: 200px;
+    width: 200px;
+  }
+
+  @media screen and (max-width: 625px) {
+      .input{
+        margin-left: 20%;
+      }
+  }
+
+  @media screen and (max-width: 464px) {
+      .input{
+        margin-left: 0px;
+        border: 0.2px double;
+      }
+  }
