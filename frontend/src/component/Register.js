@@ -88,7 +88,7 @@ const Register = () => {
 
           <br />
           <p className="p1">Already have an account?</p>
-          <Link to="/login" title="Go to Login page">
+          <Link to= {"/login"} title="Go to Login page">
             <button className="signup_btn">Login</button>
           </Link>
         </div>
